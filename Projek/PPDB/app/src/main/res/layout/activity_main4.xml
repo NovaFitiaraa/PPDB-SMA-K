@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginRight="45dp"
+        android:backgroundTint="#C8E4B2"
+        android:textStyle="bold"
+        android:text="Pilih Ini !" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="260dp"
+        android:layout_marginRight="45dp"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:backgroundTint="#C8E4B2"
+        android:text="Pilih Ini !" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#C8E4B2"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnhome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#C8E4B2"
+                android:text="Home"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:drawableTop="@drawable/baseline_home_24"
+
+                />
+            <Button
+                android:id="@+id/btncari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#C8E4B2"
+                android:text="Search"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:drawableTop="@drawable/baseline_search_24"
+                />
+            <Button
+                android:id="@+id/btnuser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#C8E4B2"
+                android:text="Regist"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:drawableTop="@drawable/baseline_how_to_reg_24"
+                />
+            <Button
+                android:id="@+id/btncontact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#C8E4B2"
+                android:text="Contact Us"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:drawableTop="@drawable/baseline_phone_24"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

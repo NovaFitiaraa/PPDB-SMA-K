@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/logo_nova">
+            
+        </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/popbold"
+            android:text="Selamat Datang, Ara !"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/pop"
+            android:layout_marginTop="5dp"
+            android:text="Di Aplikasi PPDB SMA/K Jawa Barat 2023"
+            android:textSize="10sp">
+
+        </TextView>
+    </LinearLayout>
+    </LinearLayout>
+
+    <ViewFlipper
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:flipInterval="2000"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        android:autoStart="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/sk">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/sk2">
+
+        </ImageView>
+    </ViewFlipper>
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tentang PPDB"
+            android:textStyle="bold"
+            android:fontFamily="@font/mont"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Merupakan sebuah rangkaian kegiatan sistematik yang dirancang untuk mengatur penyelenggaraan PPDB mulai dari persiapan (pra pendaftaran), pengumuman pendaftaran, pendaftaran dan penyerahan dokumen persyaratan, seleksi hingga batas kuota daya tampung, pengumuman hasil seleksi secara terbuka, hingga daftar ulang."
+            android:fontFamily="@font/pop"
+            android:layout_marginTop="10dp"
+            android:textSize="10sp">
+
+        </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penyelenggaraan PPDB dilaksanakan secara objektif, transparan, dan akuntabel, dilaksanakan pada setiap tahun, dimulai pada awal bulan Mei. Waktu penyelenggaraan PPDB dapat berubah jika terjadi kondisi darurat yang ditetapkan Pemerintah Pusat dan/atau Pemerintah Daerah Provinsi."
+                android:fontFamily="@font/pop"
+                android:layout_marginTop="10dp"
+                android:textSize="10sp">
+aq
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@drawable/ppdb">
+
+            </ImageView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#C8E4B2"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnhome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#C8E4B2"
+                android:text="Home"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:drawableTop="@drawable/baseline_home_24"
+
+                />
+            <Button
+                android:id="@+id/btncari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#C8E4B2"
+                android:text="Search"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:drawableTop="@drawable/baseline_search_24"
+                />
+            <Button
+                android:id="@+id/btnuser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#C8E4B2"
+                android:text="Regist"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:drawableTop="@drawable/baseline_how_to_reg_24"
+                />
+            <Button
+                android:id="@+id/btncontact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#C8E4B2"
+                android:text="Contact Us"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:drawableTop="@drawable/baseline_phone_24"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
